@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="cvlCanjes1.0.exe" version="1.0.0.0" publicKeyToken="11deb0eba5e2f7ba" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="cvlCanjes1.0" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="cvlCanjes1.0.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="cvlCanjes1.0.exe" size="8061400">
+      <assemblyIdentity name="cvlCanjes1.0" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PROzPOjeyDQI6hit1UDsNZXTOjTw3nceS7MVE9uQrkk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI2.dll" size="3912136">
+      <assemblyIdentity name="Guna.UI2" version="2.0.3.2" publicKeyToken="4015E4865BDA28A4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fGGW7awrFW5dpFVvOR00hiUJYNqx0coJPNbP3eWaOoQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="App.config" size="689">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hsvLV0Sd4qeJ0p2U/7ZkZJG7s0owvtcp1AkRp2BeaOc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="cvlCanjes1.0.exe.config" size="689">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hsvLV0Sd4qeJ0p2U/7ZkZJG7s0owvtcp1AkRp2BeaOc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=FSITST\Administrador" issuerKeyHash="6d2538137e283b3330ca8a446121b6f9a7ba4679" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>OPCHJafPTITUtRRu1V1gmGh4JvbSyrEGSiqNyNoEAcw=</DigestValue></Reference></SignedInfo><SignatureValue>gVobJi/Qs7AcmQgy6jmTe3e3ogc3E3GVKXAuS32l+9/yAaKKSN9WAU18AXaN0oW9JWC17tqkL+epNglGjSwHJEphjyEoZhKLIGVxNVtdhXg3DuxmQ/3I5k2QyHk8gYHvkI5jw5kpTh6qI5cBlUEB4LH6WTtEdOb0jBPfarKN/p8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wlUdvnS1ias9mMkYp76Vu+JhvXyKqkOXwKB7T6z4lkmR+PoJmB55cakuvLcQdHHon7ImCk1hApKsd1WLDqohpWfBiNZMXumi0JOKaFehLgwhD4mL6MBzzkdqm1YvyE+/xyVOkgBcClHm9VjsGzQAFBXrpw4ct28PiJS+EAEUyV0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="cc0104dac88d2a4a06b1cad2f626786898605dd56e14b5d4844ccfa72587f038" Description="" Url=""><as:assemblyIdentity name="cvlCanjes1.0.exe" version="1.0.0.0" publicKeyToken="11deb0eba5e2f7ba" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=FSITST\Administrador</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>YoJk/ttjd2qNzN0Wte5ZYTE8aiDf2fXOFHGzg0r3IBk=</DigestValue></Reference></SignedInfo><SignatureValue>frEMn00zxMFuIJeMWyQNlYumMO8d3F1hnK0LJJ3KSCiuMR9iriOxE0hAQwwj2CUZpfh3af83NMfbqTtwlFe3S9DQvqnjBxT/NMU7nb9956uRDrR1VCZm/MlaKRG+HNjuYYx1w6JXp6ECYOruEYc3TdupBwAS2hS1sg2hQIEG/z8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wlUdvnS1ias9mMkYp76Vu+JhvXyKqkOXwKB7T6z4lkmR+PoJmB55cakuvLcQdHHon7ImCk1hApKsd1WLDqohpWfBiNZMXumi0JOKaFehLgwhD4mL6MBzzkdqm1YvyE+/xyVOkgBcClHm9VjsGzQAFBXrpw4ct28PiJS+EAEUyV0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQJajHI/AweJ5Ohy/TxeqjkjANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARgBTAEkAVABTAFQAXABBAGQAbQBpAG4AaQBzAHQAcgBhAGQAbwByMB4XDTIyMDYwNzA0NTcwMFoXDTIzMDYwNzEwNTcwMFowMzExMC8GA1UEAx4oAEYAUwBJAFQAUwBUAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQBkAG8AcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwlUdvnS1ias9mMkYp76Vu+JhvXyKqkOXwKB7T6z4lkmR+PoJmB55cakuvLcQdHHon7ImCk1hApKsd1WLDqohpWfBiNZMXumi0JOKaFehLgwhD4mL6MBzzkdqm1YvyE+/xyVOkgBcClHm9VjsGzQAFBXrpw4ct28PiJS+EAEUyV0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBFx+Rd8uM+rqMoVBW2/qEqVgCVwlbJYCHUXkL9ongQlZoheJpxAe5FA7C2eXgKrB2BJKf7vz/QjjYIJZ1dqpEaNDuUXJkZbcrg43QTDx2K3HQb7WN5etAZBfdTiWylw8J4y7+Jca+FIoHLdLbs60F/g+Z8wqYektujuMxaNyTozA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
